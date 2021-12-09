@@ -1,48 +1,45 @@
-*{
-	margin:0px;
-	padding:0px;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-.bgimage{
+.bgimage {
 	background-image: url('img.jpg');
 	background-size: 100% 110%;
 	width: 100%;
-	height: 100vh;
-	
+	height: 110vh;
 }
 
-.menu{
-
+.menu {
 	width: 100%;
 	height: 70px;
 	background-color: #1e439980;
 }
 
-.leftmenu{
+.leftmenu {
 	width: 20%;
 	line-height: 70px;
 	float: left;
-/*	background-color: yellow;*/
+	/*	background-color: yellow;*/
 }
 
-.leftmenu h4{
+.leftmenu h4 {
 	padding-left: 70px;
 	font-weight: bold;
 	color: #ffe66a;
-	background-color:#305e24;
+	background-color: #305e24;
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
 }
 
-
-.rightmenu{
-	width:60%;
+.rightmenu {
+	width: 60%;
 	height: 100px;
 	float: right;
-/*	background-color: red; */
+	/*	background-color: red; */
 }
 
-.rightmenu ul{
+.rightmenu ul {
 	margin-left: 80px;
 }
 
@@ -51,53 +48,53 @@
 	display: inline-block;
 	list-style: none;
 	font-size: 15px;
-	color:white;
+	color: white;
 	font-weight: bold;
 	line-height: 70px;
 	margin-left: 25px;
 	text-transform: uppercase;
-
 }
 
-#fisrtlist{
+#fisrtlist {
 	color: #34c2f9;
 }
 
-.rightmenu ul li:hover{
+.rightmenu ul li:hover {
 	color: #34c2f9;
-	border-bottom:3px solid #34c2f9;
+	border-bottom: 3px solid #34c2f9;
 }
 
-
-.text{
+.text {
 	width: 100%;
 	margin-top: 185px;
 	text-transform: uppercase;
 	text-align: center;
-	color:white;
+	color: white;
 }
 
-.text h4{
-
-	font-size: 14px;
+.text h4 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #ffe66a;
+	;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.text h1{
-	font-size:62px;
+.text h1 {
+	font-size: 62px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700px;
-	margin:14px 0px;
+	margin: 14px 0px;
 	color: #34c2f9;
 }
 
-.text h3{
-	font-size: 12px;
+.text h3 {
+	margin-top: 10px;
+	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-#buttonone{
+#buttonone {
 	background-color: white;
 	border: none;
 	font-size: 12px;
@@ -106,19 +103,23 @@
 	line-height: 40px;
 	width: 150px;
 	font-family: 'Montserrat', sans-serif;
-	margin-top: 25px;
-	border: 3px solid white;
+	margin: 35px;
+	border: 3px solid #ffe66a;
 }
 
-#buttontwo{
-
+#buttontwo {
 	background-color: transparent;
 	border: none;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	line-height: 40px;
-	border: 3px solid white;
+	border: 3px solid #ffe66a;
 	width: 150px;
-	color:white;
+	color: #ffe66a;
+}
+
+#buttontwo :hover {
+	background-color: #ffe66a;
+	color: #34c2f9;
 }
