@@ -4,14 +4,15 @@
 }
 
 .bgimage {
-	background-image: url('img.jpg');
+	background-image: url("img.jpg");
 	background-size: 100% 110%;
 	width: 100%;
-	height: 110vh;
+	height: 70vh;
 }
 
 .menu {
 	width: 100%;
+	position: fixed;
 	height: 70px;
 	background-color: #1e439980;
 }
@@ -29,7 +30,7 @@
 	color: #ffe66a;
 	background-color: #305e24;
 	font-size: 22px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 .rightmenu {
@@ -44,7 +45,7 @@
 }
 
 .rightmenu ul li {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	display: inline-block;
 	list-style: none;
 	font-size: 15px;
@@ -66,6 +67,7 @@
 
 .text {
 	width: 100%;
+	float: right;
 	margin-top: 185px;
 	text-transform: uppercase;
 	text-align: center;
@@ -76,13 +78,12 @@
 	margin-bottom: 10px;
 	font-size: 22px;
 	color: #ffe66a;
-	;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 .text h1 {
 	font-size: 62px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight: 700px;
 	margin: 14px 0px;
 	color: #34c2f9;
@@ -91,26 +92,26 @@
 .text h3 {
 	margin-top: 10px;
 	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
+	color: #1e4;
+	font-family: "Open Sans", sans-serif;
 }
 
 #buttonone {
 	background-color: white;
-	border: none;
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 40px;
 	width: 150px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	margin: 35px;
+	color: #34c2f9;
 	border: 3px solid #ffe66a;
 }
 
 #buttontwo {
 	background-color: transparent;
-	border: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	line-height: 40px;
@@ -119,7 +120,58 @@
 	color: #ffe66a;
 }
 
-#buttontwo :hover {
-	background-color: #ffe66a;
+a {
+	text-decoration: none;
+}
+
+#buttontwo a, #buttonone a {
+	font-size: 14px;
+	outline: none;
+}
+
+#buttonone:hover {
+	text-decoration: none;
+	border: 3px solid #34c2f9;
+	background: transparent;
+}
+
+#buttontwo:hover {
+	text-decoration: none;
 	color: #34c2f9;
+	border: 3px solid #34c2f9;
+	background: #ffe66a;
+}
+
+/* services */
+
+.services {
+	display: block;
+}
+
+.services_left {
+	float: left;
+	max-width: 50%;
+	;
+}
+
+.services_left img {
+	width: 70%;
+	margin: auto;
+	padding: auto;
+	height: 35vh;
+}
+
+.services_title {
+	text-align: center;
+}
+
+.services_title h2 {
+	margin: 20px 0 20px 0;
+	font-size: 50px;
+	color: #34c2f9;
+	text-transform: capitalize;
+}
+
+.services_right {
+	
 }
